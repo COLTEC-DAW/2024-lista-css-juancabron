@@ -2,8 +2,18 @@ body{
     background-color:#F5F5F5;
     color:#333333;
     font-family:sans-serif;
-    width:720px;
+    width:80%;
+    max-width:1280px;
+    margin:0 auto;
     
+}
+header{
+    background-color:#4CAF50;
+    color:#F5F5F5;
+    padding:1em;
+}
+.intro{
+    height:550px;
 }
 .summary{
     text-align:center;
@@ -19,9 +29,13 @@ h1,h2,h3{
 }
 h1{
     font-size:1.8rem;
+    display:inline-block;
+    margin-right:1em;
+    margin-bottom:0.5em;
 }
 h2{
     font-size:1.4rem;
+    display:inline-block;
 }
 h3{ 
     font-size:1.2rem;
@@ -31,4 +45,23 @@ abbr{
 }
 a:link{
     color:#4CAF50;
+}
+#design-archives{
+    display:none;
+}
+footer a{
+    margin:4% 0;
+    padding:0.5em;
+    display:inline-block;
+    text-decoration:none;
+    border:2px solid;
+}
+
+.sidebar ul{
+    list-style-type: none;
+    
+}
+.sidebar li{
+    margin-bottom:1em;
+    text-align:center;
 }
