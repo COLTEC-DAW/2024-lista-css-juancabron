@@ -65,3 +65,19 @@ footer a{
     margin-bottom:1em;
     text-align:center;
 }
+.page-wrapper{
+    position:relative;
+}
+.explanation{
+    width:60%;
+    margin-right:35%;
+    border-right:1px solid #1f295c;
+    padding-right:2px;
+}
+.design-selection {
+    position: absolute;
+    top:560px;
+    left:62%;
+    width:35%;
+    padding:0 2%;
+}
