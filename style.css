@@ -80,12 +80,13 @@ footer a{
 }
 .participation{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     border-top:3px solid #4CAF50;
     border-bottom: 3px solid #4CAF50;
 }
 .participation h3{
     align-self: center;
+    margin-right: 10px;
 }
 .participation p{
     width: 50%;
@@ -126,4 +127,21 @@ footer a{
     left:62%;
     width:35%;
     padding:0 2%;
+}
+@media screen and (max-width:768px) {
+    .design-selection{
+        all:unset;
+        display: block;
+    }
+    .explanation{
+        border-right:green;
+    }
+    .participation{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .page-wrapper{
+        position: initial;
+    }
 }
